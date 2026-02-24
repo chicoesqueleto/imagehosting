@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volumen Wohnen</title>
+    <!-- Icomoon -->
+    <link rel="stylesheet" href="css/icomoon-styles.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Simple grid -->
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <!-- Custom js -->
+    <!-- nav shrink -->
+    <script src="js/nav-shrink.js"></script>
+    <!-- jost font -->
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Media queries -->
+    <link rel="stylesheet" href="css/media-queries.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="hidden-m hidden-l mobile-nav">
+      <!-- container -->
+      <div class="container">
+        <!-- col -->
+        <div class="col-12">
+          <ul class="mobile-logo inline">
+            <a href="index.html">
+              <figure>
+                <img src="images/volumen-wohnen-logo.svg" alt="">
+              </figure>
+            </a>
+          </ul>
+          <ul class="inline hamburger">
+            <a class="" uk-toggle="target: #offcanvas-overlay"><span class="icon icon-hamburger"></span></a>
+          </ul>
+        </div>
+        <!-- col-end -->
+      </div>
+      <!-- container end -->
+    </nav>
+    <nav class="main-nav hidden-s" uk-sticky="top: 100; bottom: #sticky-on-scroll-up">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-12">
+          <ul class="logo inline">
+            <li>
+              <a class="background-logo" href="index.html"></a>
+            </li>
+          </ul>
+          <ul class="main-nav-links inline">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="bett.html">Bett³</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="who-and-where.html">Wer & Wo</a></li>
+          </ul>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container-end -->
+    <!-- offcanvas nav -->
+    <div id="offcanvas-overlay" uk-offcanvas="overlay: true; mode: push; flip: true;" >
+      <div class="uk-offcanvas-bar">
+        <a class="uk-offcanvas-close" uk-close><span class="icon icon-close"></span></a>
+        <ul class="offcanvas-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bett.html">Bett³</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="who-and-where.html">Wer & Wo</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="mailto:info@volumenwohnen.de" target="_blank">Email</a></li>
+          <li><a href="tel:498941902846">Telefon</a></li></a>
+        </ul>
+      </div>
+    </div>
+    <!-- offcanvas nav end -->
+    </nav>
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-12">
+          <!-- switcher -->
+          <div class="switcher">
+            <ul class="switcher-tab" uk-switcher>
+              <li><a href="#">Bett³ Element</a></li>
+              <li><a href="#">Bett³ Desk</a></li>
+            </ul>
+            <div class="uk-switcher">
+                <!-- type 1 -->
+                <div>
+                  <!-- slideshow for mobile-->
+                  <div uk-slideshow="ratio: 7:4; animation: fade; autoplay: false; autoplay-interval: 2500" class="bett-slideshow bett-slideshow-mobile hidden-m hidden-l">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                      <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/pictures/bett-element-01-m.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-element-02-m.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-element-03-m.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-element-04-m.jpg" alt="" uk-cover>
+                        </li>
+                      </ul>
+                      <a class="uk-position-center-left uk-position-small" href="#" uk-slideshow-item="previous"><span class="icon icon-prev"></span></a>
+                      <a class="uk-position-center-right uk-position-small" href="#" uk-slideshow-item="next"><span class="icon icon-next"></a>
+                    </div>
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                  </div>
+                  <!-- slideshow-end -->
+                  <!-- slideshow -->
+                  <div uk-slideshow="ratio: 7:3; animation: fade; autoplay: false; autoplay-interval: 2500" class="bett-slideshow hidden-s">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                      <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/pictures/bett-element-01.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-element-02.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-element-03.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-element-04.jpg" alt="" uk-cover>
+                        </li>
+                      </ul>
+                      <a class="uk-position-center-left uk-position-small" href="#" uk-slideshow-item="previous"><span class="icon icon-prev"></span></a>
+                      <a class="uk-position-center-right uk-position-small" href="#" uk-slideshow-item="next"><span class="icon icon-next"></a>
+                    </div>
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                  </div>
+                  <!-- slideshow-end -->
+                  <!-- row -->
+                  <div class="row">
+                    <!-- col -->
+                    <div class="col-8">
+                      <h1>Bett³ Element</h1>
+                      <p>Lassen Sie ihr Bett³ innerhalb weniger Sekunden per Knopfdruck in der Decke verschwinden und schaffen damit neue Fläche in Ihrem Zuhause. Wie Sie diese Fläche nutzen ist vollkommen Ihnen überlassen: eine gemütliche Couch aufstellen, als Spielfläche für Kinder oder als Ihre neue Meditationsecke? Bett³ Element ermöglicht Ihnen all das und noch mehr. Mehr Lebensqualität innerhalb von bestehenden Strukturen - die Möglichkeiten sind beinahe unbegrenzt.</p>
+                      <div class="technical-info hidden-m hidden-l">
+                        <h4>Technische Informationen</h4>
+                        <ul class="p-small bullet-list">
+                          <li>Einfache Handhabung per Knopfdruck (inkl. das Aus-/Einfahren der Bettbeine)</li>
+                          <li>Komfortables 160 cm breites Bett inkl. Lattenrost (andere Breiten auf Anfrage)</li>
+                          <li>Kompatibel mit Ihrer Lieblingsmatraze </li>
+                          <li>Sicher und zuverlässig, mit elektromagnetischer Sicherung</li>
+                          <li>Standardfarbe weiß (nach Wunsch individualisierbar)</li>
+                          <li>Steuerungsknöpfe wählbar auf der linken oder rechten Bettseite</li>
+                          <li>Kindersicher (Kontaktschlüssel)</li>
+                          <li>Tragfähigkeit in der Schlafposition 500 kg</li>
+                          <li>Anschluss über eine übliche Haushaltssteckdose (230V, 500W)</li>
+                        </ul>
+                      </div>
+                      <h3>Individuelle Lösungen</h3>
+                      <p class="p-small">Haben Sie besondere Anforderungen oder Ideen und wünschen sich dabei professionelle Unterstützung? Dafür beraten wir Sie gerne vor Ort und erstellen individuelle, maßgeschnittene Lösungen. Wir sind kreativ, haben viele Erfahrungen gesammelt und lieben Herausforderungen.</p>
+                      <!-- <p class="p-small"><a href="#" uk-totop uk-scroll></a></p> -->
+                    </div>
+                    <!-- col-end -->
+                    <!-- col -->
+                    <div class="col-4 hidden-s">
+                      <h4>Technische Informationen</h4>
+                      <ul class="p-small bullet-list">
+                        <li>Einfache Handhabung per Knopfdruck (inkl. das Aus-/Einfahren der Bettbeine)</li>
+                        <li>Komfortables 160 cm breites Bett inkl. Lattenrost (andere Breiten auf Anfrage)</li>
+                        <li>Kompatibel mit Ihrer Lieblingsmatraze </li>
+                        <li>Sicher und zuverlässig, mit elektromagnetischer Sicherung</li>
+                        <li>Standardfarbe weiß (nach Wunsch individualisierbar)</li>
+                        <li>Steuerungsknöpfe wählbar auf der linken oder rechten Bettseite</li>
+                        <li>Kindersicher (Kontaktschlüssel)</li>
+                        <li>Tragfähigkeit in der Schlafposition 500 kg</li>
+                        <li>Anschluss über eine übliche Haushaltssteckdose (230V, 500W)</li>
+                      </ul>
+                    </div>
+                    <!-- col end -->
+                  </div>
+                  <!-- row-end -->
+                </div>
+                <!-- type 1 end -->
+                <div>
+                  <!-- slideshow for mobile-->
+                  <div uk-slideshow="ratio: 7:4; animation: fade; autoplay: false; autoplay-interval: 2500" class="bett-slideshow bett-slideshow-mobile hidden-m hidden-l">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                      <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/pictures/bett-desk-01-m.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-desk-02-m.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-desk-03-m.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-desk-04-m.jpg" alt="" uk-cover>
+                        </li>
+                      </ul>
+                      <a class="uk-position-center-left uk-position-small" href="#" uk-slideshow-item="previous"><span class="icon icon-prev"></span></a>
+                      <a class="uk-position-center-right uk-position-small" href="#" uk-slideshow-item="next"><span class="icon icon-next"></a>
+                    </div>
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                  </div>
+                  <!-- slideshow-end -->
+                  <!-- slideshow -->
+                  <div uk-slideshow="ratio: 7:3; animation: fade; autoplay: false; autoplay-interval: 2500" class="bett-slideshow hidden-s">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                      <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/pictures/bett-desk-01.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-desk-02.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-desk-03.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/pictures/bett-desk-04.jpg" alt="" uk-cover>
+                        </li>
+                      </ul>
+                      <a class="uk-position-center-left uk-position-small" href="#" uk-slideshow-item="previous"><span class="icon icon-prev"></span></a>
+                      <a class="uk-position-center-right uk-position-small" href="#" uk-slideshow-item="next"><span class="icon icon-next"></a>
+                    </div>
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                  </div>
+                  <!-- slideshow-end -->
+                  <!-- col -->
+                  <div class="col-8">
+                    <h1>Bett³ Desk</h1>
+                    <p>Tagsüber ein Büroplatz oder Essbereich für 4 Personen, in der Nacht gemütlicher Schlafbereich - das alles ermöglicht der Bett³ Desk. Lassen Sie Ihr Bett³ innerhalb weniger Sekunden per Knopfdruck in der Decke verschwinden und klappen Ihren Arbeits-/Esstisch mit einer Handbewegung auf. Zusätzlich können Sie die vielen Ablageflächen und Stauräume nutzen - so bleibt alles schön aufgeräumt und organisiert.</p>
+                    <div class="technical-info hidden-m hidden-l">
+                      <h4>Technische Informationen</h4>
+                      <ul class="p-small bullet-list">
+                        <li>Einfache Handhabung per Knopfdruck (inkl. das Aus-/Einfahren der Bettbeine)</li>
+                        <li>Komfortables 160cm breites Bett inkl. Lattenrost (andere Breiten auf Anfrage)</li>
+                        <li>Kompatibel mit Ihrer Lieblingsmatraze </li>
+                        <li>Sicher und zuverlässig, mit elektromagnetischer Sicherung</li>
+                        <li>Steuerungsknöpfe wählbar auf der linken oder rechten Bettseite</li>
+                        <li>Kindersicher (Kontaktschlüssel)</li>
+                        <li>Tragfähigkeit in der Schlafposition 500 kg</li>
+                        <li>Anschluss über eine übliche Haushaltssteckdose (230V, 500W)</li>
+                        <li>Arbeits-/Esstisch 65 cm breit und 130 cm lang</li>
+                        <li>Standardfarbe weiß (nach Wunsch individualisierbar)</li>
+                      </ul>
+                    </div>
+                    <h3>Individuelle Lösungen</h3>
+                    <p class="p-small">Haben Sie besondere Anforderungen oder Ideen und wünschen sich dabei eine professionelle Unterstützung? Dafür beraten wir Sie gerne vor Ort und erstellen individuelle, maßgeschnittene Lösungen. Wir sind kreativ, haben viele Erfahrungen gesammelt und lieben Herausforderungen.</p>
+                  </div>
+                  <!-- col-end -->
+                  <div class="col-4 hidden-s">
+                    <h4>Technische Informationen</h4>
+                    <ul class="p-small bullet-list">
+                      <li>Einfache Handhabung per Knopfdruck (inkl. das Aus-/Einfahren der Bettbeine)</li>
+                      <li>Komfortables 160cm breites Bett inkl. Lattenrost (andere Breiten auf Anfrage)</li>
+                      <li>Kompatibel mit Ihrer Lieblingsmatraze </li>
+                      <li>Sicher und zuverlässig, mit elektromagnetischer Sicherung</li>
+                      <li>Steuerungsknöpfe wählbar auf der linken oder rechten Bettseite</li>
+                      <li>Kindersicher (Kontaktschlüssel)</li>
+                      <li>Tragfähigkeit in der Schlafposition 500 kg</li>
+                      <li>Anschluss über eine übliche Haushaltssteckdose (230V, 500W)</li>
+                      <li>Arbeits-/Esstisch 65 cm breit und 130 cm lang</li>
+                      <li>Standardfarbe weiß (nach Wunsch individualisierbar)</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- switcher end -->
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container end -->
+    <section class="install">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-6">
+            <figure>
+              <img src="images/illustrations/home-service.png" alt="">
+            </figure>
+          </div>
+          <!-- col-end -->
+          <!-- col -->
+          <div class="col-6">
+            <h2>Installations- und Umzugsservice</h2>
+            <p>Bei der Entwicklung von Bett³ wurde viel Wert auf eine möglichst einfache und somit schnelle Installation gesetzt. Unsere erfahrenen Monteure arbeiten zügig und sauber, damit Sie ihr Bett³ sofort nach der Installation verwenden können. Planen Sie einen Umzug, erledigen wir den Abbau, Transport und Aufbau - unkompliziert und kompetent. Auf Anfrage bieten wir auch Umzugsservice für Ihr komplettes Zuhause an.</p>
+            <p><a href="service.html">Erfahren sie mehr über unser Service <span class="icon icon-arrow"></span></a></p>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row-end -->
+      </div>
+      <!-- container-end -->
+    </section>
+    <section>
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-8">
+            <!-- row -->
+            <div class="row">
+              <!-- col -->
+              <div class="col-6">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0"class="uk-transition-toggle" tabindex="0">
+                  <figure>
+                    <img src="images/illustrations/possibilities-1.png" alt="">
+                  </figure>
+                  <div uk-lightbox>
+                    <a href="images/illustrations/possibilities-2.png">
+                      <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                          <span class="icon icon-zoom"></span>
+                      </div>
+                    </a>
+                    <a href="images/illustrations/possibilities-1.png">
+                      <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                          <span class="icon icon-zoom"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- col end -->
+              <!-- col -->
+              <div class="col-6">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0"class="uk-transition-toggle" tabindex="0">
+                  <figure>
+                    <img src="images/illustrations/possibilities-2.png" alt="">
+                  </figure>
+                  <div uk-lightbox>
+                    <a href="images/illustrations/possibilities-1.png">
+                      <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                          <span class="icon icon-zoom"></span>
+                      </div>
+                    </a>
+                    <a href="images/illustrations/possibilities-2.png">
+                      <div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                          <span class="icon icon-zoom"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- col end -->
+            </div>
+            <!-- row end -->
+          </div>
+          <!-- col end -->
+          <!-- col -->
+          <div class="col-4">
+            <h2>Aufbaumöglichkeiten</h2>
+            <p>Durch die variable Befestigung (an der Rückwand oder in den Boden&Decke) sind die Aufstellungsmöglichkeiten beinahe unbegrenzt. Anhand Ihrer Wünsche und der Raumgegebenheiten finden wir eine optimale Lösung. Hier sehen Sie nur allgemeine Installationszeichnungen für die Standardmodelle. Lassen Sie sich beraten um mehr zu erfahren, wir freuen uns!</p>
+            <p><a href="who-and-where.html">Besuchen sie uns <span class="icon icon-arrow"></span></a></p>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section>
+    <section class="collaborators">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-4">
+            <figure>
+              <img src="images/illustrations/collaborator.png">
+            </figure>
+          </div>
+          <!-- col end -->
+          <!-- col -->
+          <div class="col-8">
+            <h2>Für Architekten, Designer, Investoren, ...</h2>
+            <p>Wir arbeiten gerne mit anderen Fachexperten zusammen und sind in der Lage auch größere Aufträge reibungslos abzuwickeln. Dazu bieten wir Ihnen unser Wissen, unsere Erfahrungen und ganz individuelle Lösungen an. Wir sind offen für neue Ideen und freuen uns auf spannende Herausforderungen.</p>
+            <p><a href="mailto:info@volumenwohnen.de" target="_blank">info@volumenwohnen.de <span class="icon icon-arrow"></span></a></p>
+          </div>
+          <!-- col-end -->
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section>
+    <!-- container -->
+    <div class="container">
+      <footer>
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-12">
+            <ul class="footer-logo hidden-s">
+              <li>
+                <a href="index.html">
+                  <img src="images/volumen-wohnen-logo-black.svg" alt="">
+                </a>
+              </li>
+            </ul>
+            <nav class="footer-nav">
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bett.html">Bett³</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="who-and-where.html">Wer & Wo</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="mailto:info@volumenwohnen.de" target="_blank">Email</a></li>
+                <li><a href="tel:498941902846">Telefon</a></li></a>
+              </ul>
+              <ul class="social-links">
+                <li><a href="https://www.facebook.com/VolumenWohnen/" target="_blank"><span class="icon icon-facebook"></span></a></li>
+                <li><a href="https://www.instagram.com/volumenwohnendeutschland/" target="_blank"><span class="icon icon-instagram"></span></a></li>
+                <li><a href="https://www.pinterest.de/social6161/" target="_blank"><span class="icon icon-pinterest"></span></a></li>
+                <li><a href="https://twitter.com/VolumenW" target="_blank"><span class="icon icon-twitter"></span></a></li>
+              </ul>
+            </nav>
+            </nav>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </footer>
+    </div>
+    <!-- container end -->
+  </body>
+</html>

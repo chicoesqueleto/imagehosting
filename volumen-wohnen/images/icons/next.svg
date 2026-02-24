@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="55px" viewBox="0 0 33 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>nexr</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 33 0 33 55 0 55"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-740.000000, -388.000000)">
+            <g id="nexr" transform="translate(740.000000, 388.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M1.09444613,55 C0.783748792,55 0.477427468,54.8673423 0.258626523,54.6108706 C-0.13083916,54.1421466 -0.0739509143,53.4434825 0.385531071,53.0499312 L30.212476,27.5000501 L0.385531071,1.94574703 C-0.0739509143,1.55219573 -0.13083916,0.853531626 0.258626523,0.389229528 C0.652468225,-0.0794944935 1.34387921,-0.128135666 1.8033612,0.260993711 L32.6105343,26.6554625 C32.8555914,26.8677148 33,27.1772496 33,27.5000501 C33,27.8228506 32.8555914,28.1323853 32.6105343,28.3446377 L1.8033612,54.7391064 C1.59768831,54.9115615 1.34387921,55 1.09444613,55" id="Fill-1" fill="#231F20" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

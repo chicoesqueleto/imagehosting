@@ -1,0 +1,406 @@
+html, body {
+  height: 100%; }
+
+body {
+  font-family: "Jost", sans-serif;
+  line-height: 1.6rem;
+  font-weight: 400;
+  color: #000; }
+
+figure {
+  margin: 0; }
+
+img {
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600; }
+  a:hover {
+    color: #FEC505; }
+
+a span, button span {
+  vertical-align: middle;
+  margin-left: .4rem;
+  position: relative;
+  bottom: .06rem; }
+a:hover, button:hover {
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+  text-decoration: none; }
+
+.button:hover span, button:hover span {
+  margin-left: .6rem; }
+
+ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+input, button {
+  display: inline-block; }
+
+button, .button {
+  background-color: #FEC505;
+  border: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  padding: .6rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer; }
+  button:hover, .button:hover {
+    background-color: #000;
+    color: #fff; }
+
+.break, .break-m {
+  display: block;
+  content: ""; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+  color: #000;
+  font-weight: 600; }
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  line-height: 2rem; }
+
+h2 {
+  font-size: 1.6rem; }
+
+p {
+  font-size: 1rem; }
+
+.p-small {
+  font-size: .88rem;
+  line-height: 1.46rem; }
+
+.bullet-list {
+  list-style-type: none;
+  list-style-image: url("../images/icons/dot.svg");
+  padding-left: 0.6rem; }
+
+form {
+  margin-top: 1.6rem; }
+  form [class^="col"] {
+    margin: 0 !important; }
+
+input {
+  -webkit-appearance: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #838383;
+  padding: 1rem .6rem;
+  margin-bottom: 1.4rem;
+  width: 96%; }
+  input::placeholder {
+    color: #838383;
+    font-family: "Jost", sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .03rem; }
+
+.inline {
+  display: inline-block; }
+  .inline li {
+    display: inline-block; }
+
+.main-nav {
+  padding: 1.2rem 0 0 0; }
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff; }
+
+.mobile-logo {
+  margin-top: .9rem; }
+
+.logo {
+  margin-top: .6rem; }
+  .logo img {
+    width: 100%; }
+
+.mobile-logo {
+  width: 8rem; }
+
+.hamburger {
+  float: right; }
+
+.background-logo {
+  display: block;
+  width: 212px;
+  height: 54px;
+  background-image: url(../images/volumen-wohnen-logo.svg);
+  background-size: cover; }
+
+.shrink {
+  background-color: #fff;
+  padding: 0;
+  box-shadow: 0 -7px 19px 0 #999; }
+  .shrink .main-nav-links {
+    margin: 0; }
+    .shrink .main-nav-links li {
+      font-size: .86rem; }
+  .shrink .logo {
+    margin: 0;
+    padding-top: .2rem; }
+  .shrink .background-logo {
+    width: 30px;
+    height: 30px; }
+
+.main-nav-links {
+  float: right;
+  margin-top: 1.2rem; }
+  .main-nav-links .active a:before {
+    background-color: #FEC505; }
+  .main-nav-links li {
+    font-size: .96rem;
+    margin-right: 1rem; }
+    .main-nav-links li:last-child {
+      margin-right: 0; }
+    .main-nav-links li a:hover {
+      color: #000; }
+      .main-nav-links li a:hover:before {
+        background-color: #FEC505; }
+    .main-nav-links li a:before {
+      display: block;
+      content: "";
+      width: 40%;
+      height: .2rem;
+      background-color: rgba(0, 0, 0, 0);
+      margin: 0 auto .3rem auto; }
+
+.uk-offcanvas-bar {
+  color: #fff;
+  background-color: #000; }
+  .uk-offcanvas-bar a {
+    color: #fff; }
+  .uk-offcanvas-bar span {
+    color: #fff; }
+  .uk-offcanvas-bar svg {
+    display: none; }
+
+.offcanvas-links {
+  margin-top: 2.8rem;
+  font-size: 1rem; }
+  .offcanvas-links li {
+    margin-bottom: 1rem; }
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.24%;
+  /* 16:9 */
+  padding-top: 0;
+  height: 0;
+  margin: 0; }
+
+.video-wrapper iframe, .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+header {
+  margin: 2rem 0 1rem 0;
+  padding: .6rem 0; }
+  header .button {
+    display: inline-block;
+    margin-top: .2rem; }
+
+.icon-prev, .icon-next {
+  font-size: 3.6rem;
+  color: #000; }
+
+.uk-dotnav {
+  position: relative;
+  z-index: 5;
+  margin-top: -2rem !important; }
+
+.uk-dotnav > * > * {
+  width: 6px;
+  height: 6px;
+  background-color: #000;
+  border-color: #000; }
+
+.uk-dotnav > .uk-active > * {
+  border-color: #000;
+  background-color: rgba(0, 0, 0, 0); }
+
+.illustration-slide {
+  overflow: visible; }
+  .illustration-slide li {
+    overflow: visible; }
+
+.small-slideshow-controls {
+  top: 50%; }
+
+.uk-slideshow-items {
+  overflow: visible; }
+  .uk-slideshow-items li {
+    overflow: visible; }
+
+.bett-slideshow {
+  margin-bottom: 1.6rem;
+  overflow: hidden; }
+
+.bett-slideshow-mobile {
+  margin-bottom: 0; }
+
+section {
+  margin: 1.6rem 0;
+  padding: 1.6rem 0 1rem 0; }
+
+.arguments .row {
+  margin-bottom: 1rem; }
+  .arguments .row:nth-child(even) .col-6 {
+    float: right; }
+  .arguments .row:last-child {
+    margin-bottom: 0; }
+
+.after-slideshow {
+  margin-top: 3rem; }
+
+.switcher {
+  margin: 5rem 0 2rem 0; }
+
+.switcher-tab {
+  margin-bottom: 0; }
+  .switcher-tab li {
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    background-color: #fafafa; }
+    .switcher-tab li:last-child {
+      float: right; }
+    .switcher-tab li:hover {
+      background-color: #ececec; }
+    .switcher-tab li a {
+      display: block;
+      width: 100%;
+      font-size: .76rem;
+      text-transform: uppercase;
+      letter-spacing: .2rem;
+      padding: .6rem 0; }
+      .switcher-tab li a:hover {
+        color: #000; }
+  .switcher-tab .uk-active {
+    background-color: #ececec; }
+
+.uk-transition-toggle a {
+  color: #fff;
+  font-size: 4rem; }
+.uk-transition-toggle .uk-position-small {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.16); }
+
+.install, .collaborators, .solutions, .showroom {
+  background-color: #fafafa; }
+
+.intro {
+  margin-top: 4rem; }
+
+.showroom {
+  margin-top: 2rem; }
+  .showroom .uk-dotnav {
+    margin-top: -1.6rem !important; }
+  .showroom h2 {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: .6rem; }
+  .showroom .uk-slideshow-items li {
+    overflow: hidden; }
+
+.address {
+  margin-top: 2.6rem;
+  font-weight: 600; }
+  .address span {
+    font-size: 1.4rem;
+    vertical-align: top;
+    margin-right: .4rem; }
+
+.contact-links {
+  margin-top: 1rem; }
+  .contact-links a {
+    margin-top: .3rem;
+    display: block; }
+
+.about-us {
+  margin-top: -2rem; }
+  .about-us .col-3 {
+    margin-left: 0; }
+  .about-us .social-links {
+    margin-top: .3rem; }
+    .about-us .social-links:before, .about-us .social-links:after {
+      display: none; }
+    .about-us .social-links li:first-child {
+      margin-left: 0; }
+
+.team-members-container {
+  margin-top: 3rem; }
+
+.team-member {
+  margin-top: .6rem; }
+  .team-member h4 {
+    margin-bottom: 0; }
+  .team-member .position {
+    margin-top: .3rem;
+    margin-bottom: -.6rem; }
+  .team-member figure {
+    width: 50%;
+    display: block;
+    margin: 1rem 0 1rem 0; }
+
+.collaborators {
+  margin-bottom: 0; }
+  .collaborators figure {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem; }
+
+.iconic-cols {
+  background-color: #fafafa;
+  text-align: center; }
+  .iconic-cols figure {
+    display: block;
+    margin: 0 auto;
+    width: 60%; }
+    .iconic-cols figure img {
+      vertical-align: middle; }
+  .iconic-cols h4 {
+    margin: 2.6rem 0 0 0; }
+  .iconic-cols p {
+    margin: .4rem 0 2rem 0; }
+
+.impressum {
+  margin-top: 4rem; }
+
+footer {
+  border-top: 1px solid #D9D9D9;
+  padding: 0 0 2rem 0; }
+
+.footer-nav {
+  margin-top: 2rem;
+  font-size: .9rem; }
+  .footer-nav li {
+    margin-bottom: .6rem; }
+
+.footer-logo {
+  width: 9rem; }
+
+.social-links {
+  font-size: 1.1rem; }
+  .social-links li {
+    display: inline-block; }
+
+.hidden-s {
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */

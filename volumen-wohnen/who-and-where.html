@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volumen Wohnen</title>
+    <!-- Icomoon -->
+    <link rel="stylesheet" href="css/icomoon-styles.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Simple grid -->
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <!-- Custom js -->
+    <!-- nav shrink -->
+    <script src="js/nav-shrink.js"></script>
+    <!-- jost font -->
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Media queries -->
+    <link rel="stylesheet" href="css/media-queries.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="hidden-m hidden-l mobile-nav">
+      <!-- container -->
+      <div class="container">
+        <!-- col -->
+        <div class="col-12">
+          <ul class="mobile-logo inline">
+            <a href="index.html">
+              <figure>
+                <img src="images/volumen-wohnen-logo.svg" alt="">
+              </figure>
+            </a>
+          </ul>
+          <ul class="inline hamburger">
+            <a class="" uk-toggle="target: #offcanvas-overlay"><span class="icon icon-hamburger"></span></a>
+          </ul>
+        </div>
+        <!-- col-end -->
+      </div>
+      <!-- container end -->
+    </nav>
+    <nav class="main-nav hidden-s" uk-sticky="top: 100; bottom: #sticky-on-scroll-up">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-12">
+          <ul class="logo inline">
+            <li>
+              <a class="background-logo" href="index.html"></a>
+            </li>
+          </ul>
+          <ul class="main-nav-links inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bett.html">Bett³</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li class="active"><a href="who-and-where.html">Wer & Wo</a></li>
+          </ul>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container-end -->
+    <!-- offcanvas nav -->
+    <div id="offcanvas-overlay" uk-offcanvas="overlay: true; mode: push; flip: true;" >
+      <div class="uk-offcanvas-bar">
+        <a class="uk-offcanvas-close" uk-close><span class="icon icon-close"></span></a>
+        <ul class="offcanvas-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bett.html">Bett³</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="who-and-where.html">Wer & Wo</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="mailto:info@volumenwohnen.de" target="_blank">Email</a></li>
+          <li><a href="tel:498941902846">Telefon</a></li></a>
+        </ul>
+      </div>
+    </div>
+    <!-- offcanvas nav end -->
+    </nav>
+
+    <section class="intro showroom">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-12">
+            <h2>Besuchen Sie uns in München</h2>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-12">
+            <!-- slideshow -->
+            <div uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 2500">
+              <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                <ul class="uk-slideshow-items">
+                  <li>
+                      <img src="images/pictures/showroom-slideshow-01-@2x.jpg" alt="" uk-cover>
+                  </li>
+                  <li>
+                      <img src="images/pictures/showroom-slideshow-02-@2x.jpg" alt="" uk-cover>
+                  </li>
+                  <li>
+                      <img src="images/pictures/showroom-slideshow-03-@2x.jpg" alt="" uk-cover>
+                  </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small" href="#" uk-slideshow-item="previous"><span class="icon icon-prev"></span></a>
+                <a class="uk-position-center-right uk-position-small" href="#" uk-slideshow-item="next"><span class="icon icon-next"></a>
+              </div>
+              <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            </div>
+            <!-- slideshow-end -->
+            <p class="address"><span class="icon icon-local"></span> Besuchen Sie uns: Kirchenstraße 79, 81675 München (Matratzen Obermühle)</p>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section>
+
+    <section class="about-us">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-8">
+            <h2>Wer sind wir</h2>
+            <p>Ein Einzelunternehmen, jedoch eine Symbiose von Vielen. Wir setzen uns mit tatsächlichen Problemen auseinander, deren Lösung ein Umdenken erfordert. Unsere Stärke liegt in der Vernetzung von vielen Individuen, wo jeder seine Leidenschaft, seine Erfahrungen und sein Fachwissen einsetzen kann. Die einfachen Geschäftsstrukturen ermöglichen uns eine schnelle und effiziente Umsetzung der Ideen.</p>
+            <div class="team-members-container">
+              <!-- row -->
+              <div class="row">
+                <div class="team-member">
+                  <!-- col -->
+                  <div class="col-3">
+                    <figure>
+                      <img src="images/pictures/aljaz-primozic.jpg" alt="">
+                    </figure>
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-9">
+                    <h4>Aljaz Primozic</h4>
+                    <p class="position">Inhaber</p>
+                    <p class="p-small">Ein Vogel für alles. Ständig auf der Suche nach neuen Ideen und Lösungen, welche unser Leben besser und schöner machen.</p>
+                  </div>
+                  <!-- col end -->
+                </div>
+              </div>
+              <!-- row end -->
+              <!-- row -->
+              <div class="row">
+                <div class="team-member">
+                  <!-- col -->
+                  <div class="col-3">
+                    <figure>
+                      <img src="images/pictures/barbara-braun.jpg" alt="">
+                    </figure>
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-9">
+                    <h4>Barbara Braun</h4>
+                    <p class="position">Beratung und Verkauf</p>
+                    <p class="p-small">Mit über 15 Jahren Kundenerfahrung können Sie eine leidenschaftliche, mit viel Wissen und Einfühlungsgefühl fundierte Beratung genießen.</p>
+                  </div>
+                  <!-- col end -->
+                </div>
+              </div>
+              <!-- row end -->
+              <!-- row -->
+              <div class="row">
+                <div class="team-member">
+                  <!-- col -->
+                  <div class="col-3">
+                    <figure>
+                      <img src="images/pictures/walter-braun.jpg" alt="">
+                    </figure>
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-9">
+                    <h4>Walter Braun</h4>
+                    <p class="position">Beratung und Verkauf</p>
+                    <p class="p-small">Gründer der “Matratzen Obermühle”, Matratzenexperte und ein Fachmann in vieler Hinsicht berät Sie professionell und ausführlich.</p>
+                  </div>
+                  <!-- col end -->
+                </div>
+              </div>
+              <!-- row end -->
+            </div>
+          </div>
+          <!-- col end -->
+          <!-- col -->
+          <div class="col-4">
+            <h4>Kontaktieren Sie uns</h4>
+            <p class="p-small">Egal ob sie Fragen oder Ideen haben: zögern Sie nicht, wir freuen uns von Ihnen zu hören :)</p>
+            <div class="open-hours">
+              <h4><span class="icon icon-clock"></span> Öffnungszeiten</h4>
+              <p class="p-small">Montag: 10.00-13:00, 15:00-18:00<span class="break"></span>Dienstag: Geschlossen<span class="break"></span>Mittwoch: 10:00–13:00, 15:00–18:00<span class="break"></span>Donnerstag: 10:00–13:00, 15:00–18:00<span class="break"></span>Freitag: 10:00–13:00, 15:00–18:00<span class="break"></span>Samstag: 10:00–14:00<span class="break"></span>Sonntag: Geschlossen</p>
+            </div>
+            <div class="contact-links">
+              <p class="p-small"><a href="mailto:info@volumenwohnen.de target="_blank"">info@volumenwohnen.de <span class="icon icon-arrow hidden-m"></span></a>
+              <span class="break">
+              <a href="tel:498941902846">+49 89 41902846 <span class="icon icon-arrow hidden-m"></span></a></p>
+            </div>
+            <ul class="social-links who-and-where-social-links">
+              <li><a href="https://www.facebook.com/VolumenWohnen/" target="_blank"><span class="icon icon-facebook"></span></a></li>
+              <li><a href="https://www.instagram.com/volumenwohnendeutschland/" target="_blank"><span class="icon icon-instagram"></span></a></li>
+              <li><a href="https://www.pinterest.de/social6161/" target="_blank"><span class="icon icon-pinterest"></span></a></li>
+              <li><a href="https://twitter.com/VolumenW" target="_blank"><span class="icon icon-twitter"></span></a></li>
+            </ul>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section>
+
+    <div class="container">
+      <footer>
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-12">
+            <ul class="footer-logo hidden-s">
+              <li>
+                <a href="index.html">
+                  <img src="images/volumen-wohnen-logo-black.svg" alt="">
+                </a>
+              </li>
+            </ul>
+            <nav class="footer-nav">
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bett.html">Bett³</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="who-and-where.html">Wer & Wo</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="mailto:info@volumenwohnen.de" target="_blank">Email</a></li>
+                <li><a href="tel:498941902846">Telefon</a></li></a>
+              </ul>
+              <ul class="social-links">
+                <li><a href="https://www.facebook.com/VolumenWohnen/" target="_blank"><span class="icon icon-facebook"></span></a></li>
+                <li><a href="https://www.instagram.com/volumenwohnendeutschland/" target="_blank"><span class="icon icon-instagram"></span></a></li>
+                <li><a href="https://www.pinterest.de/social6161/" target="_blank"><span class="icon icon-pinterest"></span></a></li>
+                <li><a href="https://twitter.com/VolumenW" target="_blank"><span class="icon icon-twitter"></span></a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </footer>
+    </div>
+    <!-- container end -->
+  </body>
+</html>
